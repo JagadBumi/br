@@ -21,7 +21,7 @@
 	"Psiphon": {
 		"CoreName": "psiphon-tunnel-core",
 		"Tunnel": 1,
-		"Region": "US",
+		"Region": "SG",
 		"Protocols": [],
 		"TunnelWorkers": 6,
 		"KuotaDataLimit": 0,
