@@ -4,14 +4,14 @@
 	},
 	"Inject": {
 		"Enable": true,
-		"Type": 0,
+		"Type": 1,
 		"Port": "8989",
 		"Rules": {
-			"193.37.254.172:22": [
-				"127.0.0.1:8080"
+			"*:*": [
+				"*:*"
 			]
 		},
-		"Payload": "CONNECT [host_port] [protocol]\r\n\r\n",
+		"Payload": "",
 		"ServerNameIndication": "",
 		"MeekType": 0,
 		"Timeout": 10,
@@ -22,9 +22,7 @@
 		"CoreName": "psiphon-tunnel-core",
 		"Tunnel": 1,
 		"Region": "US",
-		"Protocols": [
-			"SSH"
-		],
+		"Protocols": [],
 		"TunnelWorkers": 6,
 		"KuotaDataLimit": 0,
 		"Authorizations": []
