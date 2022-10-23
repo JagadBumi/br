@@ -4,7 +4,7 @@
 	},
 	"Inject": {
 		"Enable": true,
-		"Type": 1,
+		"Type": 2,
 		"Port": "8989",
 		"Rules": {"*:*" : ["*:*"]},
 		"Payload": "",
